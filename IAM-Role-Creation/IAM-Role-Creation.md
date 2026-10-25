@@ -8,4 +8,6 @@ It is important to create a role for the tool using IAM (Identity and Access Man
 
 Using the Root User to create the user and role for Stratus Red Team. This was done using the CLI from my local machine that is connected to the Root User. 
 
-![Create User](./IAM-Role-Creation/CreateUser.png)
+![Create User](./CreateUser.png)
+
+![Create Profile](./CreateProfile.png)
