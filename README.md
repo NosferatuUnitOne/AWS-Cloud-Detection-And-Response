@@ -9,7 +9,7 @@ All of it this is done solely within a Cloud Environment and Windows CLI.
 | Phase | Component | Documentation |
 |---|---|---|
 | 1 | IAM Role Creation | [View Docs](https://github.com/NosferatuUnitOne/AWS-Cloud-Detection-And-Response/blob/main/IAMROLECREATION.md) |
-| 2 | CloudTrail Configuration | [View Docs](./Veloceraptor-Client/README.md) |
+| 2 | CloudTrail Configuration | [View Docs](https://github.com/NosferatuUnitOne/AWS-Cloud-Detection-And-Response/blob/main/CloudTrail-Configuration.md) |
 | 3 | Write Ups/Reports | [View Docs]()
 
 ## Architecture
