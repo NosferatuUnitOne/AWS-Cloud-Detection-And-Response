@@ -11,3 +11,13 @@ Using the Root User to create the user and role for Stratus Red Team. This was d
 ![Create User](./CreateUser.png)
 
 ![Create Profile](./CreateProfile.png)
+
+## Step Two: Attaching Policies
+
+In order to simulate an attack vector from Stratus Red Team user, we would need to allow administrator privileges and policies. This is done using the **aws iam attach-user-policy** command and then verifying through **list-attached-policies** command
+
+![Policy Attachment](./AttachPolicy.png)
+
+## Verification
+
+![Verification](./Verify.png)
