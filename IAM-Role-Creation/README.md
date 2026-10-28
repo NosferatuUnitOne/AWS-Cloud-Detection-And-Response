@@ -24,3 +24,7 @@ In order to simulate an attack vector from Stratus Red Team user, we would need 
 
 ## Step Three: Creating Key and Logging into the Terminal
 
+Using command `aws iam create-access-key` to create an access key to access the user from the local terminal, and testing profile configuration with `aws sts get-caller-identity --profile StratusOne` and following through with a `aws iam list-users --profile StratusOne` to test privileges or previously given **Administrator access**.
+
+![Creating Access Key](./CreatingAccessKey.png)
+![Testing Identity](./TestingIdentity.png)
