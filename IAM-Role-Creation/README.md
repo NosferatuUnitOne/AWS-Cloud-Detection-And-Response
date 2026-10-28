@@ -21,3 +21,6 @@ In order to simulate an attack vector from Stratus Red Team user, we would need 
 ## Verification
 
 ![Verification](./Verify.png)
+
+## Step Three: Creating Key and Logging into the Terminal
+
