@@ -1,4 +1,4 @@
-# AWS-Cloud-Detection---Response
+# AWS-Cloud-Detection-And-Response
 Cloud Threat Detection &amp; Incident Investigation (IAM, AWS CloudTrail, S3, Stratus Red Team, MITRE ATT&amp;CK)
 
 This Project is to configure AWS CloudTrail for the sole purpose of logging telemetry in the Cloud Environment. Additionally, this repository uses Stratus Red Team to simulate an attack vector to create test scenarios/cases, as well as map attack vectors on MITRE ATT&amp;CK from simulated telemetry
