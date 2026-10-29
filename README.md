@@ -5,6 +5,8 @@ This Project is to configure AWS CloudTrail for the sole purpose of logging tele
 
 All of it this is done solely within a Cloud Environment and Windows CLI.
 
+Stratus Red Team is Provided an IAM user with Administrator Access, however this entire project is done in a throwaway sandbox account. No real data, budget alarm set and teardown is done via `stratus cleanup`
+
 ## STEPS IN ORDER
 | Phase | Component | Documentation |
 |---|---|---|
