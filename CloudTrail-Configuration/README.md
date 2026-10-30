@@ -11,3 +11,5 @@ A test sample to check in for user creation:
 ## Step Two: Setting up S3 Bucket
 
 We can set up an AWS S3 Bucket to store the incoming logs from cloudtrail and use this later for log analysis and relating each telemetry to understand what kind of attack has been launched against the Cloud Environment. 
+
+![S3 Make Bucker](./s3mb.png)
