@@ -6,7 +6,13 @@ A test sample to check in for user creation:
 
 ![CloudTrailLookup](./CreateUserLookup.png)
 
+However, we will want to configure a proper pipline for our logs for a more mature environment by using specific trails from AWS Cloudtrail, and routing them into an S3 Bucket, and eventually into a SIEM, which would help for a more automated pipeline rather than constantly running `Event-lookup` command for active monitoriing.
+
 ## Step One: Creating Trail
+
+Setting up here a basic trail that routes into a an S3 bucket using the command `create trail`. Additionally this trail is going to be for Management Events.
+
+
 
 ## Step Two: Setting up S3 Bucket
 
