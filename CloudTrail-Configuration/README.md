@@ -18,3 +18,4 @@ We can set up an AWS S3 Bucket to store the incoming logs from cloudtrail and us
 
 Setting up here a basic trail that routes into a an S3 bucket using the command `create trail`. Additionally this trail is going to be for Management Events.
 
+![CloudTrail Trails](./CloudTrail.png)
