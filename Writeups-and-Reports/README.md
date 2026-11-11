@@ -39,4 +39,5 @@ Detection Limit: Creating access keys can be legitimate. The filter finds events
 Using `stratus cleanup` we are able to reverse and delete variables and prerequisites used for the simulation. 
 
 ![Cleanup](./CleanupDone.png)
+![Delete Proof](./DeleteProof.png)
 
