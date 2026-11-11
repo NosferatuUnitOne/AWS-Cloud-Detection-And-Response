@@ -9,8 +9,7 @@ Simulation: aws.persistence.iam-backdoor-user. Explain that warmup creates the t
 Detection: using the following Query within AWS Cloudwatch: 
 
 `SOURCE logGroups(namePrefix: [], class: "STANDARD") START=-1h END=0s |
-fields @timestamp, requestParameters.userName, userIdentity.type, userIdentity.accountId, userIdentity.roleArn, eventName, userIdentity.arn`
-
-`| filter eventName in ["CreateUser", "AttachUserPolicy", "CreateAccessKey"]
+fields @timestamp, requestParameters.userName, userIdentity.type, userIdentity.accountId, userIdentity.roleArn, eventName, userIdentity.arn
+| filter eventName in ["CreateUser", "AttachUserPolicy", "CreateAccessKey"]
 | sort @timestamp desc
 | limit 10000`
