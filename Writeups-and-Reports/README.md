@@ -34,3 +34,5 @@ The CloudTrail event shows StratusOne successfully creating an access key for th
 
 Detection Limit: Creating access keys can be legitimate. The filter finds events worth investigating; it doesn’t automatically prove malicious activity. The warmup prepared the user, and detonation created its access key. The `CreateAccessKey` log demonstrates the credential creation. It doesn’t, by itself, prove that the new key was subsequently used or that the target user had administrator access.
 
+
+
