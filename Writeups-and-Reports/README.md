@@ -28,7 +28,7 @@ Identifying the CreateAccessKey event, the caller (userIdentity.arn), the target
 
 ![Logs](./Logged1.png)
 
-The CloudTrail event shows StratusOne successfully creating an access key for the target IAM user (proof of successful access key creation below). This demonstrates persistence through additional credentials without requiring a new policy attachment during detonation.
+The CloudTrail event shows StratusOne successfully creating an access key for the target IAM user. This demonstrates persistence through additional credentials without requiring a new policy attachment during detonation.  Proof of successful access key creation below also demonstrated from ResponseElements within the log.
 
 ![Evidence of Successful CreateAccessKey](./ResponseElement.png)
 
