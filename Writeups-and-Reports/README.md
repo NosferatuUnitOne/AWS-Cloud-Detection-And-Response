@@ -4,7 +4,13 @@ Using Stratus's IAM Backdoor user, is a persistence technique whereby it establi
 
 **Objective:* Detect an access key being created for an existing IAM user.
 
-Simulation: aws.persistence.iam-backdoor-user. Explain that warmup creates the target user and detonation creates its access key.
+Simulation: aws.persistence.iam-backdoor-user. Stratus Red Team warmup creates the target user and detonation creates its access key.
+
+![Warmup](./warmup1.png)
+
+**Detonation**
+
+![Detonate](./Detonate1.png)
 
 Using the following Query within AWS Cloudwatch: 
 
@@ -15,6 +21,10 @@ fields @timestamp, requestParameters.userName, userIdentity.type, userIdentity.a
 | limit 10000`
 
 Finding: Identify the CreateAccessKey event, the caller (userIdentity.arn), the target (requestParameters.userName), and whether it succeeded.
+
+## Resulting Log Output
+
+![Logs](./Logged1.png)
 
 Detection Limit: Creating access keys can be legitimate. Your filter finds events worth investigating; it doesn’t automatically prove malicious activity.
 
