@@ -20,7 +20,7 @@ fields @timestamp, requestParameters.userName, userIdentity.type, userIdentity.a
 | sort @timestamp desc
 | limit 10000`
 
-Finding: Identify the CreateAccessKey event, the caller (userIdentity.arn), the target (requestParameters.userName), and whether it succeeded.
+Identifying the CreateAccessKey event, the caller (userIdentity.arn), the target (requestParameters.userName), and whether it succeeded.
 
 ## Resulting Log Output
 
