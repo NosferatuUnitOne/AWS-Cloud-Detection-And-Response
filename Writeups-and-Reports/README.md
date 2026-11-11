@@ -28,7 +28,9 @@ Identifying the CreateAccessKey event, the caller (userIdentity.arn), the target
 
 ![Logs](./Logged1.png)
 
-The CloudTrail event shows StratusOne successfully creating an access key for the target IAM user. This demonstrates persistence through additional credentials without requiring a new policy attachment during detonation.
+The CloudTrail event shows StratusOne successfully creating an access key for the target IAM user (proof of successful access key creation below). This demonstrates persistence through additional credentials without requiring a new policy attachment during detonation.
+
+![Evidence of Successful CreateAccessKey](./ResponseElement.png)
 
 Detection Limit: Creating access keys can be legitimate. The filter finds events worth investigating; it doesn’t automatically prove malicious activity. The warmup prepared the user, and detonation created its access key. The `CreateAccessKey` log demonstrates the credential creation. It doesn’t, by itself, prove that the new key was subsequently used or that the target user had administrator access.
 
