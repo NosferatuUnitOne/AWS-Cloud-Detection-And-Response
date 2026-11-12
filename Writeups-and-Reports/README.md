@@ -48,3 +48,15 @@ At 17:04:30 UTC, CloudTrail recorded a CreateAccessKey request made by StratusOn
 Successful creation was confirmed by the returned access key details in responseElements.accessKey, including an accessKeyId and an Active status, with no errorCode or errorMessage indicating failure.
 
 This demonstrates the persistence action simulated by aws.persistence.iam-backdoor-user: creating additional credentials for an existing IAM user without attaching a new policy during detonation. The event confirms credential creation; it does not establish that the credentials were subsequently used or that the target user had administrator permissions. Although expected in this controlled simulation, the same activity in a real environment would require investigation to determine whether it was authorized.
+
+## Attack Vector 2: IAM-Create-Admin-User (Persistence)
+
+Establishes persistence by creating a new IAM user with administrative permissions.
+
+**Objective** Detect IAM User create, and administrative permission, as well as access key creation
+
+Simulation: Using `stratus detonate aws.persistence.iam-create-admin-user` to establish the attack vector
+
+
+
+
