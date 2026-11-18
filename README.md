@@ -18,4 +18,4 @@ All scripts made are an attempt to quickly simplify regularly used queries and t
 
 ## Architecture
 
-![Architecture](./Cloudtrail.png)
+![Architecture](./CloudTrail.png)
