@@ -17,3 +17,5 @@ All scripts made are an attempt to quickly simplify regularly used queries and t
 | 3 | Write Ups/Reports | [View Docs](https://github.com/NosferatuUnitOne/AWS-Cloud-Detection-And-Response/blob/main/Writeups-and-Reports/README.md)
 
 ## Architecture
+
+![Architecture](./Cloudtrail.png)
